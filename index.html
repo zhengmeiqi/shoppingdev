@@ -1,119 +1,62 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-<head>
-    <meta charset="utf-8" />
-	<title>电商网站-首页</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="css/layout.css" />
-	<link rel="stylesheet" type="text/css" href="css/weiget.css" />
-	<link rel="stylesheet" type="text/css" href="css/page/index.css" />
-</head>
-<body>
-	<!-- header头部 -->
-	<div id="header" class="header">
-		<!-- logo -->
-		<label></label>
-
-		<!-- header右上角导航 TopNav-->
-		<div class="headerTopNav">
-		    <!-- header定位标签 -->
-			<span>一个外国的地区-安提瓜岛和巴布达</span>
-			<ul>
-				<li>我的订单</li>
-				<i></i>
-				<li>我的京东</li>
-				<i></i>
-				<li>京东会员</li>
-				<i></i>
-				<li>企业乐购</li>
-				<i></i>
-				<li>客户服务</li>
-				<i></i>
-				<li>网站导航</li>
-				<i></i>
-				<li>手机京东</li>
-			</ul>
-		</div>
-
-		<!-- header Search 搜索框-->
-		<div class="headerSearch">
-			<input type="text" class="input_text_S" id="headerSearchId" value="请输入内容" />
-			<input type="button" class="input_button_S" value="" />
-			<!-- 我的购物车跳转按钮 My ShoppingCar -->
-			<span class="MyCar_HS">我的购物车<i>0</i></span>		
-		</div>
-		<!-- header左下角导航 ButtomNav -->
-		<div class="headerButtomNav">
-			<ul>
-				<li>秒杀</li>
-				<li>优惠券</li>
-				<li>闪购</li>
-				<li>拍卖</li>
-				<i></i>
-				<li>服装城</li>
-				<li class="po_r">京东超市
-				    <em style="top:-11px;right:-11px;" class="hot"></em>
-				</li>
-				<li>生鲜</li>
-				<li>全球购</li>
-				<i></i>
-				<li>京东金融</li>				
-			</ul>
-		</div>
-	</div>
-
-	<!-- 第一屏 -->
-	<div id="wrapId">
-		<!-- 左侧产品导航 -->
-		<div class="productNav">
-			<ul id="ulId"></ul>
-		</div>
-
-		<!-- 轮播图 -->
-		<div class="slider">
-			<label id="leftBtnId"> < </label>
-			<ul id="imgListId"></ul>
-			<span id="rightBtnId"> > </span>
-
-			<!-- 小白点 -->
-			<div id="pointerId" class="sliderPointer">
-				<ul id="pointerUlId"></ul>
+	<head>
+		<meta charset='utf-8' />
+		<title>电商网站-首页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/weiget.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/page/index.css" />
+	</head>
+	<body>
+		<!-- 第一屏 -->
+		<div id="wrapId">
+			<!-- 产品导航 -->
+			<div class="productNav">
+				<ul id="ulId"></ul>
 			</div>
-			<div id="pointerBgId" class="sliderPointerBg"></div>
+			
+			<!-- 轮播图 -->
+			<div class="slider">
+				<label id="leftBtnId"> < </label>
+				<ul id="imgListId"></ul>
+				<span id="rightBtnId"> > </span>
+
+				<!-- 小白点 -->
+				<div id="pointerId" class="sliderPointer">
+					<ul id='pointerUlId'></ul>
+				</div>
+				<div id="pointerBgId" class="sliderPointerBg"></div>
+			</div>
+
+			<!-- 二个小广告位 -->
+			<div class="adDiv fr mT10"><img src="image/temp/tem5.jpg" /></div>
+			<div class="adDiv fr mT10 mR10"><img src="image/temp/tem6.jpg" /></div>
 		</div>
 
-		<!-- 两个广告位 -->
-		<div class="adDiv_1 fr mT10"><img src="image/temp/tem5.jpg" /></div>
-		<div class="adDiv_1 fr mT10 mR10"><img src="image/temp/tem6.jpg" /></div>
-	</div>
-
-	<!-- 第二屏 产品列表 productWrap -->
-	<div id="productWrap">
-		<div class="title">
-			<p>享品质</p>
+		<!-- 产品列表 -->
+		<div id="procuctWrap">
+			<div class="title">
+				<p>享受生活</p>
+			</div>
+			<div id="productListId" class="productList"></div>
 		</div>
-		<div id="productListId" class="productList"></div>
 
-		<div class="title">
-			<p>享生活</p>
-		</div>
-		<div id="productList2Id" class="productList"></div>
-	</div>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-</body>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+	</body>
 </html>
-
 
 <script type="text/javascript" src='js/jquery-1.7.2.js'></script>
 <script type="text/javascript" src='js/tpl/productBlockTpl.js'></script>
-<script type="text/javascript" src='js/config.js'></script>
 <script type="text/javascript" src='js/common.js'></script>
+<script type="text/javascript" src='js/config.js'></script>
 <script type="text/javascript" src='js/page/index.js'></script>
 <script type="text/javascript" src='js/main.js'></script>
