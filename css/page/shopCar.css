@@ -1,0 +1,136 @@
+/*******************
+ * Date：2017/11/27
+ * Info: 购物车页面
+ */
+
+/* title */
+.carTitle{
+	width: 100%;
+}
+.carTitle h1{
+	float: left;clear: both;height: 40px;font-size: 20px;color: #f00;
+	font-weight: bold;border-bottom:4px solid #f00;line-height: 40px;
+	margin-bottom: -4px;
+}
+.carTitle h1 p{
+	float: right;text-align: right;margin-left: 7px;
+}
+.carTitle ul{
+	display: block;width: 100%;height: 51px;border:1px solid #C4C4C4;
+	background: #F3F3F3;clear: both;
+}
+.carTitle ul li{
+	float: left;margin-top: 19px;font-size: 22px;color: #666;
+}
+.carTitle ul li.w_1{margin-left: 13px;margin-right: 106px;}
+.carTitle ul li.w_2{margin-right: 472px;}
+.carTitle ul li.w_3{margin-right: 83px;}
+.carTitle ul li.w_4{margin-right: 125px;}
+.carTitle ul li.w_5{margin-right: 47px;}
+
+/* 一条产品 */
+.shopItem{
+	width:100%;height: 141px;background: #FFF4E8;
+	border: 1px solid #C4C4C4;
+}
+.shopItemLine{
+	width:100%;height: 1px;background: #C4C4C4;margin:11px auto;clear: both;
+}
+.shopItem li{
+	margin-top: 17px;float: left;font-size: 22px;
+}
+.shopItem li:after{
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.shopItem li.w_1{
+	margin-left: 12px;margin-right: 23px;
+}
+.shopItem li.w_2{
+	width:97px;height:97px;margin-right: 12px;border: 1px solid #C4C4C4;
+	overflow: hidden;background: #fff;
+}
+.shopItem li.w_2 img{
+	width:97px;height:97px;border:0;
+}
+.shopItem li.w_3{
+	width: 239px;margin-right: 24px;
+}
+.shopItem li.w_4{
+	width: 263px;margin-right: 15px;
+}
+.shopItem li.w_5{
+	width: 95px;text-align: center;margin-right: 23px;
+}
+.shopItem li.w_6{
+	margin-right: 42px;
+}
+.shopItem li.w_7{
+	width: 110px;text-align: center;margin-right: 10px;
+}
+.shopItem li.w_8{
+	width: auto;text-align: center;cursor: pointer;
+}
+.shopItem li.w_8:hover{
+	text-decoration: underline;
+}
+
+/* 购物车产品输入框 */
+.enterNum{
+	width:94px;height: 24px;margin:0 auto;
+	border:1px solid #B2B2B2;position: relative;
+}
+.enterNum .enterNum_a,
+.enterNum .enterNum_c{
+	width:20px;height: 24px;background: #fff;
+	font-size: 14px;color: #B2B2B2;
+}
+.enterNum .enterNum_b{
+	position: absolute;top: 0;left: 20px;
+	width:53px;height: 24px;
+	border-left: 1px solid #B2B2B2;font-size: 22px;
+	border-right: 1px solid #B2B2B2;text-align: center;
+}
+
+/* footer */
+.carFooter{
+	width:100%;height: 60px;
+	border:1px solid #BABABA;
+	margin-top: 20px;
+}
+.carFooter li{/*float: left;*/}
+.carFooter li.w_1, 
+.carFooter li.w_2{
+	margin:24px 12px 0 10px;
+}
+.carFooter li.w_3{
+	width: 250px;height: 60px;
+	margin:0 15px;position: relative;
+	font-size: 14px;font-weight: normal;
+	color: #666;
+}
+.carFooter li.w_3 label{
+	position: absolute;left: 10px;top: 5px;
+	font-size: 22px;
+}
+.carFooter li.w_3 label em{
+	color: #f00;font-weight: bold;
+}
+.carFooter li.w_3 span{
+	position: absolute;left: 0;top: 30px;
+}
+.carFooter .payBtn{
+	width: 115px;height: 60px;background: #E64346;
+	font-size:22px;font-weight: bold;
+	text-align: center;line-height: 60px;
+	color: #fff;
+}
+.carFooter li.w_4{
+	margin:12px 16px 0 0;font-size: 22px;
+}
+.carFooter li.w_4 i{
+	color: #f00;font-weight: bold;margin:0 5px;
+}

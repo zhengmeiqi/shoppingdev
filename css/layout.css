@@ -1,0 +1,28 @@
+/********************
+ * Date：2017/11/23
+ * info: 页面上大的html结构的样式
+ */
+
+/* index页面的header */
+.header{
+	width:1000px;height: 169px;padding-left: 192px;
+	margin: 0 auto;background: #F6F6F6;
+	position: relative;
+}
+
+/* 首页 wrapId */
+#wrapId{
+	width:1192px;height: 480px;
+	margin:0 auto;background: #F6F6F6;
+}
+
+/* 产品列表 procuctWrap */
+#procuctWrap{
+	width: 1192px;margin:0 auto;
+	background: #F6F6F6;
+}
+
+/* 1192 页面大容器 */
+.wrap{
+	width:1300px;margin:0 auto;
+}

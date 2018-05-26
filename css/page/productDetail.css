@@ -1,0 +1,185 @@
+/*******************
+ * Date：2017/11/24
+ * Info: 产品详情页
+ */
+
+/* 产品图片 */
+.productImageWrap{
+	width: 495px;height: 588px;
+}
+.productImageWrap dt{
+	width:495px;height: 495px;border:1px solid #666;
+	position: relative;
+}
+.productImageWrap dt img{width:495px;height: 495px;}
+.productImageWrap dt i{
+	width: 33px;height: 33px;display: block;
+	position: absolute;right: 0;bottom:0;
+	z-index: 5;
+	background: url('../../image/icon/icons.png') no-repeat 0 -126px;
+}
+.productImageWrap dt .mask{
+	width:200px;height: 200px;background: #000;
+	position: absolute;left: 0;top: 0;z-index: 6;
+	opacity: 0.5;cursor: move;display: none;
+}
+.productImageWrap dt #bigImgPart{
+	width:495px;height: 495px;position: absolute;background: #fff;
+	z-index: 20;top: 0;right: -495px;border:1px solid #666;
+	display: none;
+	overflow: hidden;
+}
+.productImageWrap dt #bigImgPart img{
+	position: absolute;top: 0;left: 0;
+	width:1225px;height: 1225px;
+}
+
+
+/* dd */
+.productImageWrap dd{
+	width:495px;height: 66px;overflow: hidden;position: relative;
+}
+.productImageWrap dd label, .productImageWrap dd span{
+	width:23px;height: 37px;display: block;
+	background-image: url('../../image/icon/icons.png');
+	background-repeat: no-repeat;margin-top: 20px;
+	cursor: pointer;z-index: 99;position: relative;
+}
+.productImageWrap dd label{
+	background-position: 0 -180px;float: left;
+}
+.productImageWrap dd span{
+	background-position: 0 -224px;float: right;
+}
+.productImageWrap ul{
+	width: 410px;height: 65px;display: block;
+	position: absolute;top: 10px;left: 30px;
+}
+.productImageWrap ul li{
+	width: 58px;height: 58px;float: left;margin-right: 10px;
+	cursor: pointer;
+	border:1px solid #fff;
+	overflow: hidden;
+}
+.productImageWrap ul li:hover{
+	border:1px solid #f00;
+}
+.productImageWrap ul li img{
+	width: 58px;height: 58px;
+}
+
+/* 产品 右边 */
+.detailInfo{
+	width:790px;
+}
+.detailInfo h1{
+	font-size: 24px;font-weight: bold;line-height: 32px;color: #666;
+}
+.detailInfo p.title{
+	font-size: 14px;color: #f00;display: block;
+	height: 28px;line-height: 28px;margin-left: 12px;
+}
+
+/* 配送 */
+.sendWrap{
+	margin-top: 20px;clear: both;
+}
+.sendWrap label.sendTo{
+	float: left;width:61px;font-size: 14px;color: #666;
+	height: 20px;line-height: 27px;text-align: right;padding-right: 5px;
+}
+
+.addressTitle{
+	width:auto;height: 24px;float: left;border:1px solid #ccc;
+	font-size: 14px;line-height: 24px;text-align: left;
+	padding:0 31px 0 5px;
+	border-bottom: 0;background: #fff;cursor: pointer;
+	position: relative;z-index: 5;left: 0;top: 1px;
+}
+
+/*.addressTitle i{
+	width: 14px;height: 8px;display: block;
+	position: absolute;top: 8px;right: 5px;
+	background: url('../../image/icon/icons.png') no-repeat 0 -278px;
+}*/
+
+.addressListWrap{
+	width:376px;border:1px solid #ccc;clear: both;
+	display: none;
+	margin-left: 66px;margin-top: -1px;padding:10px;
+}
+
+.addressListWrap p.sel_p{
+	width:100%;height: 25px;line-height: 25px;
+	margin:5px 0 12px 0;
+	background: url('../../image/icon/icons.png') no-repeat 350px -267px;
+}
+
+.addressBtnTab{
+	width: 100%;height: 24px;
+	border-bottom: 2px solid #EDD28B;
+}
+.addressBtnTab li{
+	float: left;height: 24px;padding:0 11px;line-height:24px;
+	font-size: 14px;color: #005AA0;font-weight: bold;
+	border:1px solid #ddd;margin-right: 10px;background: #fff;
+	border-bottom: 0;cursor: pointer;
+}
+.addressBtnTab li.sel_li{
+	border: 2px solid #EDD28B;
+	border-bottom: 0;
+}
+
+.nameList{
+	width: 100%;margin-top: 10px;
+}
+.nameList li{
+	cursor: pointer;padding-right: 14px;float: left;
+	height: 25px;line-height: 25px;text-align: left;
+}
+.nameList li:hover{
+	background: #ddd;
+}
+
+/* 加入购物车 */
+.payWrap{
+	float: left;clear: both;margin:20px 0 0 66px;
+}
+.payWrap .payNum{
+	float: left;width: 54px;height: 48px;overflow: hidden;
+	border: 1px solid #666;margin-right: 10px;position: relative;
+}
+.payWrap .gotoPay{
+	float: left;
+}
+.payWrap .payNum .sty_a{
+	width:37px;height: 48px;float: left;clear: both;
+	font-size: 14px;text-align: center;line-height: 48px;
+	border:0;
+}
+.payWrap .payNum .sty_b, 
+.payWrap .payNum .sty_c{
+	width: 16px;height: 26px;position: absolute;right: 0;
+	background: #B5B5B5;border: 1px solid #666;
+	color: #666;
+}
+.payWrap .payNum .sty_b:hover, 
+.payWrap .payNum .sty_c:hover{
+	background: #f6f6f6;
+}
+.payWrap .payNum .sty_b{
+	right:-1px;top: -1px;
+}
+.payWrap .payNum .sty_c{
+	right: -1px;bottom: -1px;
+}
+.payWrap .gotoPay{
+	width:157px;height: 50px;float: left;background: #f00;
+	color: #fff;font-size: 22px;font-weight: bold;;
+	text-align: center;line-height: 50px;border:0;
+}
+
+/*  */
+
+.addressSendDiv{clear: both;}
+.addressSendDiv p{float: left;margin-right: 10px;}

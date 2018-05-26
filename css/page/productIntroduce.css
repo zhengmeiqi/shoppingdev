@@ -1,0 +1,66 @@
+/*************
+*Date:2017/11/24
+*Info:电商网站首页css样式
+*/
+
+
+.wrap{
+	width: 1300px;height: 600px;margin:0 auto;
+}
+
+/* 产品图片 左边 */
+.productImageWrap{
+	width: 495px;height: 588px;
+}.productImageWrap dt{
+	width: 495px;height: 495px;border:1px solid #666;position: relative;
+}
+.productImageWrap dt img{
+	width: 493px;height: 493px;
+}
+.productImageWrap dt i{
+	width: 33px;height: 33px;display: block;
+	background:url('../../image/icon/icons.png') no-repeat 0 -126px;
+	position: absolute;right: 0;bottom: 0;z-index: 5;
+}
+/*图片列表*/
+.productImageWrap dd{
+	width: 495px;height: 66px;position: relative;
+}
+.productImageWrap dd label, 
+.productImageWrap dd span{
+	width: 23px;height: 37px;display: block;
+	background-image: url('../../image/icon/icons.png');background-repeat: no-repeat;
+	margin-top: 20px;cursor: pointer;
+}
+.productImageWrap dd label{
+	background-position: 0 -180px;float: left;
+}
+.productImageWrap dd span{
+	background-position: 0 -224px;float: right;
+}
+.productImageWrap ul {
+	width: 410px;height: 58px;display: block;
+	position: absolute;top10px;left: 30px;
+}
+.productImageWrap ul li{
+	width: 58px;height: 58px;float: left;margin-right: 10px;
+	cursor: pointer;border: 1px solid #fff;overflow: hidden;
+}
+.productImageWrap ul li:hover{
+	border:1px solid #f00;
+}
+/*局部大图*/
+.productImageWrap ul li img{
+	width: 58px;height:58px;
+}
+/* 右边 */
+.detailInfo{
+	width: 790px;
+}
+.detailInfo h1{
+	font-size: 14px;font-weight: bold;line-height: 32px;color:#666;
+}
+.detailInfo p .title{
+	font-size: 14px;color: #f00;display: block;margin-left: 12px;
+	height:28px;line-height: 28px;
+}

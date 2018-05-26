@@ -1,0 +1,129 @@
+/********************
+ * Date：2017/11/22
+ * info:这是首页的css
+ */
+
+
+/* 首页 wrapId */
+#wrapId .productNav{
+	width: 190px;height: 480px;float: left;
+	background: #6E6568;
+}
+#wrapId .productNav ul{margin-top: 20px;display: block;}
+#wrapId .productNav li{
+	width: 100%;height: 30px;
+	line-height: 30px;cursor: pointer;
+	position: relative;
+}
+#wrapId .productNav li div.mask{
+	position: absolute;left: 189px;top: 0;
+	width:100px;height: 100px;background:#6C6675;
+	color: #000;z-index: 5;
+	border:1px solid #666;display: none;
+}
+#wrapId .productNav li:hover{
+	background: #999;
+}
+#wrapId .productNav li:hover a{
+	color: #333;
+}
+#wrapId .productNav li a{
+	font-size: 14px;text-align: left;margin-left: 20px;color: #fff;
+}
+
+/* index 轮播图 */
+#wrapId .slider{
+	width:992px;height: 340px;float: right;overflow: hidden;position: relative;
+}
+#wrapId .slider label, #wrapId .slider span{
+	width:38px;height: 60px;position: absolute;top: 138px;
+	background: #000;color: #fff;text-align: center;font-size: 14px;
+	line-height: 60px;font-weight: normal;cursor: pointer;
+	z-index: 5;
+	opacity:0.7;    /* FF */
+}
+#wrapId .slider label:hover, #wrapId .slider span:hover{opacity: 0.3}
+#wrapId .slider label{left: 0;}
+#wrapId .slider span{right: 0;}
+
+#wrapId .slider ul{position: absolute;left: 0;top: 0;}
+
+#wrapId .slider li{
+	width:992px;height: 340px;float: left;overflow: hidden;
+}
+#wrapId .slider li img{
+	width:992px;height: 340px;
+}
+
+/* 产品的小白点半透明背景 */
+#wrapId .sliderPointerBg{
+	width:120px;height: 20px;position: absolute;
+	left: 50%;bottom: 20px;margin-left: -60px;
+	background: #fff;border-radius: 10px;opacity: 0.5;
+	z-index: 4;
+}
+
+/* 产品的小白点--的父容器 */
+#wrapId .sliderPointer{
+	width:110px;height: 20px;position: absolute;
+	left: 50%;bottom: 20px;margin-left: -60px;
+	z-index: 5;padding-left: 10px;
+}
+#wrapId .sliderPointer li{
+	float: left;width: 12px;height: 12px;border-radius: 100%;background: #fff;
+	margin:4px 5px 0 8px;cursor: pointer;
+}
+#wrapId .sliderPointer li.f00{
+	background: #f00;
+}
+#wrapId .sliderPointer li:hover{
+	background: #f00;
+}
+
+/* 产品列表 */
+#procuctWrap .title{
+	width: 1192px;height: 47px;margin:0 auto;
+	background-color: #F6F6F6;
+	background-image: url('../../image/page/index/bg_1.jpg');
+	background-repeat: repeat-x;
+	background-position: center;
+	text-align: center;
+}
+#procuctWrap .title p{
+	display: inline;background: #F6F6F6;height: 47px;
+	line-height: 47px;
+	font-size: 24px;padding:0 54px;
+}
+
+/* 产品列表 */
+#procuctWrap .productList{
+	width: 1192px;margin:0 auto;
+}
+
+#procuctWrap .productList .productBlock{
+	width: 379px;height: 170px;float: left;margin-right: 10px;margin-top: 10px;
+}
+#procuctWrap .productList .productBlock img{
+	width: 205px;height: 170px;float: right;
+}
+#procuctWrap .productList .productBlock dl{
+	width: 170px;height: 170px;float: left;
+}
+#procuctWrap .productList .productBlock dl.bg_1{
+	background: #D78E28;
+}
+#procuctWrap .productList .productBlock dl.bg_2{
+	background: #5B979E;
+}
+#procuctWrap .productList .productBlock dl.bg_3{
+	background: #6C6675;
+}
+#procuctWrap .productList .productBlock dl dt{
+	width: 97px;height: 40px;line-height: 40px;text-align: center;
+	font-size: 16px;color: #fff;margin:45px auto 10px auto;
+	border-top: 2px solid #fff;border-bottom: 2px solid #fff;
+}
+#procuctWrap .productList .productBlock dl dd{
+	width: 135px;height: 40px;line-height: 40px;margin: 0 auto;
+	font-size: 14px;color: #fff;line-height: 22px;text-align: center;
+}
